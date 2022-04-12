@@ -1,0 +1,253 @@
+body {
+    background:black;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 8%;
+}
+
+.landing-page-image {
+    box-sizing: border-box;
+    filter: grayscale(100%);
+    text-align: center;
+    position: relative;
+    border-radius: 70%; 
+    max-width: 100%;
+    height: auto;   
+}
+
+.richmond-bizzare {
+    position: absolute;
+    color: #fffefe;
+    font-family: 'Creepster', cursive;
+    font-size: 200px;
+    text-align: center;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.scroll {
+    color: white;
+    font-family: 'Creepster', cursive;
+    font-size: 250%;
+    text-align: center;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.p1 {
+    color: #605c5c;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    margin-top: 25px;
+    margin-left: 1em;
+}
+
+.p2 {
+    color: #605c5c;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    font-size: 1.5em;
+    margin-left: 1em;
+    
+}
+
+.hcwelcome {
+    filter: grayscale(100%);
+    float: right;
+    max-width: 300px;
+    height: auto;
+    float: right;
+    border: solid white 2px;
+
+}
+
+.HC {
+    font-family: 'Creepster', cursive;
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 5%;
+}
+
+p {
+    color: #605c5c;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    margin-left: 1em;
+
+}
+
+.wwpoole {
+    float: left;
+    filter: grayscale(100%);
+    border: solid white 2px;
+    max-width: 40%;
+    height: auto;
+    margin-right: 2%;
+}
+
+.tunnel {
+    filter: grayscale(100%);
+    float: right;
+    max-width: 40%;
+    height: auto;
+    border: solid white 2px;
+
+}
+
+.dog {
+    filter: grayscale(100%);
+    float: left;
+    max-width: 40%;
+    height: auto;
+    border: solid white 2px;
+    margin-right: 2%;
+}
+
+a {
+    color: rgb(90, 119, 190);
+    cursor:pointer;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: orange;
+}
+
+.handtext {
+    position:absolute;
+    color: white;
+    font-family: 'Creepster', cursive;
+    font-size: 30px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    margin-left: 40%;
+    padding-top: 3%;
+    
+}
+
+.handtext:hover {
+color: orange;
+cursor: pointer;
+
+}
+
+
+.byrd {
+    color: white;
+    font-family: 'Creepster', cursive;
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.interior {
+    filter: grayscale(100%);
+    float: left;
+    max-width: 40%;
+    height: auto;
+    border: solid white 2px;
+    margin-left: -50px;
+
+}
+
+.byrd1 {
+    margin-left: 40%;
+}
+
+.byrd2 {
+    margin-left: 40%;
+}    
+
+
+.pump {
+    color: white;
+    font-family: 'Creepster', cursive;
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.pumphouse {
+    filter: grayscale(100%);
+    float: right;
+    max-width: 40%;
+    height: auto;
+    border: solid white 2px;
+    
+}
+
+.nav-cont {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+    font-family: 'Creepster', cursive;
+    color: #fff;
+    font-size: 2em;
+
+  }
+
+  .nav-item {
+    padding: 1em;
+    color: #fff;
+  }
+
+  .nextpump {
+    position:absolute;
+    color: white;
+    font-family: 'Creepster', cursive;
+    font-size: 30px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    margin-left: 40%;
+    padding-top: 3%;
+    
+}
+
+.nextpump:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.pumpside {
+  filter: grayscale(100%);
+  float: left;
+  max-width: 40%;
+  height: auto;
+  border: solid white 2px;  
+}
+
+.home {
+    position:absolute;
+    color: white;
+    font-family: 'Creepster', cursive;
+    font-size: 30px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    margin-left: 40%;
+    padding-top: 3%;
+    
+}
+
+.home:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.pump1 {
+    margin-left: 42%;
+}
+
+.pump2 {
+    margin-left: 42%;
+}
