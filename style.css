@@ -12,7 +12,9 @@ body {
     position: relative;
     border-radius: 70%; 
     max-width: 100%;
-    height: auto;   
+    height: auto;
+    margin-left: 50%;
+    margin-right: 50%;
 }
 
 .richmond-bizzare {
