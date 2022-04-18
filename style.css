@@ -87,6 +87,19 @@ p {
     margin-right: 2%;
 }
 
+.nextbyrd {
+display: flex;
+list-style-type: none;
+justify-content: center;
+flex-wrap: wrap;
+background-color: black;
+font-family: 'Creepster', cursive;
+color: #fff;
+font-size: 2em;
+margin-bottom: 3px;
+
+}
+
 a {
     color: rgb(143, 163, 243);
     cursor:pointer;
@@ -96,21 +109,6 @@ a {
 
 a:hover {
     color: orange;
-}
-
-.nextbyrd {
-    color: white;
-    font-family: 'Creepster', cursive;
-    font-size: 30px;
-    text-align: center;
-    margin-top: 5%;
-    
-}
-
-.nextbyrd:hover {
-color: orange;
-cursor: pointer;
-
 }
 
 
@@ -172,13 +170,17 @@ cursor: pointer;
 }
 
 .nextpump {
-    color: white;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
     font-family: 'Creepster', cursive;
-    font-size: 30px;
-    text-align: center;
-    margin-top: 3em;
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 3px;
     
-}
+    }
 
 .nextpump:hover {
   color: orange;
@@ -195,13 +197,15 @@ cursor: pointer;
 }
 
 .home {
-    color: white;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
     font-family: 'Creepster', cursive;
-    font-size: 30px;
-    text-align: center;
-    padding-top: 3%;
-    text-align: center;
-    
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 3px;  
 }
 
 .home:hover {
