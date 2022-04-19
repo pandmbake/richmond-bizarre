@@ -1,3 +1,7 @@
+* {
+    padding-inline-start: 0%;
+}
+
 body {
     background:black;
     margin-left: 5%;
@@ -13,7 +17,7 @@ h1 {
     font-weight: lighter;
 }
 
-img.landing-page-image {
+img.landing-page-image { 
     filter: grayscale(100%);
     border-radius: 70%; 
     max-width: 50%;
@@ -28,6 +32,7 @@ img.landing-page-image {
     font-family: 'Creepster', cursive;
     font-size: 8em;
     text-align: center;
+    min-width: 50%;
     
 }
 
@@ -74,7 +79,7 @@ p {
     max-width: 40%;
     height: auto;
     border: solid white 2px;
-    margin-left: 1em;
+    margin: 1rem 0 1rem 1rem;
 
 }
 
@@ -88,16 +93,16 @@ p {
 }
 
 .nextbyrd {
-display: flex;
-list-style-type: none;
-justify-content: center;
-flex-wrap: wrap;
-background-color: black;
-font-family: 'Creepster', cursive;
-color: #fff;
-font-size: 2em;
-margin-bottom: 3px;
-float: none;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+    font-family: 'Creepster', cursive;
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 3px;
+    float: none;
 
 }
 
@@ -132,14 +137,13 @@ a:hover {
 
 }   
 
-
 .pump {
     color: white;
     font-family: 'Creepster', cursive;
     color: #fff;
     font-size: 3em;
     text-align: center;
-    margin-left: 1em;
+    margin-bottom: 4rem;
 }
 
 .pumphouse {
@@ -148,7 +152,7 @@ a:hover {
     max-width: 40%;
     height: auto;
     border: solid white 2px;
-    margin: 3%;
+    margin: 1em 0 1em 1em;
     
 }
 
@@ -175,14 +179,14 @@ a:hover {
     list-style-type: none;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: black;
     font-family: 'Creepster', cursive;
     color: #fff;
     font-size: 2em;
     margin-bottom: 3px;
     float: none;
+    padding-inline-start: 0%;
     
-    }
+}
 
 .nextpump:hover {
   color: orange;
@@ -195,7 +199,7 @@ a:hover {
   max-width: 40%;
   height: auto;
   border: solid white 2px;  
-  margin: 3% 3%;
+  margin: 1em 1em 1em 0;
 }
 
 .home {
@@ -203,12 +207,9 @@ a:hover {
     list-style-type: none;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: black;
     font-family: 'Creepster', cursive;
-    color: #fff;
-    font-size: 2em;
-    margin-bottom: 3px;  
-    float: none;
+    font-size: 2.5em;
+    margin-bottom: 1rem;  
 }
 
 .home:hover {
