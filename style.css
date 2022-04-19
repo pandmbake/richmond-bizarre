@@ -1,76 +1,230 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link type="text/css" rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
-    <title>Richmond Bizarre Byrd Theater</title>
-  </head>
+* {
+    padding-inline-start: 0%;
+}
 
-<nav>
-  <ul class="nav-cont">
-    <li class="nav-item"><a href="index.html">Home</a></li>
-    <li class="nav-item"><a href="Byrd.html">Byrd Theater</a></li>
-  </ul>
-</nav>  
+body {
+    background:black;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 8%;
+}
 
-    <body>
+h1 {
+    color: #fffefe;
+    font-family: 'Creepster', cursive;
+    font-size: 2em;
+    text-align: center;
+    font-weight: lighter;
+}
 
-        <div class="pump">The Byrd Park Pump House</div>
-        <a href="images/IMG-1524.jpg" target="_blank">
-        <img class="pumphouse" src="images/IMG-1524.jpg"></a></div>
+img.landing-page-image { 
+    filter: grayscale(100%);
+    border-radius: 70%; 
+    max-width: 50%;
+    height: auto; 
+    display: block;
+    margin: 0 auto;
+    border: solid white 2px; 
 
-      <p>The Byrd Park Pump House has an interesting and strange history. It was built in the late 19th
-        century in a Gothic revival style, and contained the city's main waterworks from 1883 to 1924.
-        Water was drawn directly from the James River and Kanawha Canal and pumped uphill to the Byrd
-        Park Reservoir, which was Richmond's primary water supply.</p>
+}
 
-      <p>The pump house was also a favorite place for parties.  It was used as a social venue for 
-          dances, where well-dressed Richmonders boarded a flat-bottomed boat at 7th Street for a 
-          relaxing cruise up the canal to the ballroom.</p>
+.richmond-bizarre {
+    color: #fffefe;
+    font-family: 'Creepster', cursive;
+    font-size: 8em;
+    text-align: center;
+    min-width: 50%;
+    
+}
 
-      <p>The building closed in 1924, and had its pumps sold for scrap metal before the start of the Second
-          World War. The city scheduled the pump house for demolition, but sold it to First Presbyterian 
-          Church for one dollar.</p>
 
-          <a href="images/50be6a47058ed.webp" target="_blank">
-          <img class="pumpside" src="images/50be6a47058ed.webp"></a>
+.hcwelcome {
+    filter: grayscale(100%);
+    float: right;
+    max-width: 300px;
+    height: auto;
+    float: right;
+    border: solid white 2px;
+    margin-left: 1em;
 
-      <p>The pump house is filled with echoes of the past, including several spine-tingling haunts.
-          One is the ghost of Daniel Tetweiler, a man who reportedly hung himself inside. Another is
-          the apparition of "Elizabeth," who is seen floating around the premises as a glowing orb of
-          light. One paranormal investigator, Robert Bess, says the pump house is "exteremely haunted."
-          He thinks the place is actually a portal; elements of the building's composition mix to create
-          a conductor through which paranormal activity can enter our reality. There is moving water,
-          steel, a roof made of slate, and iron all through the structure.</p> 
-          
-      <p>The idea of portals may seem a bit "out there," but there is no doubt that the pump house 
-          has a facinating history and is an extremely creepy location, one that is a required stop on 
-          any tour of Richmond. The city is currently 
-          attempting to revive the structure. You can visit the <a href="https://jamesriverpark.org/project/pumphouse-park"> 
-          pump house official website</a> for directions and more info.</p>
+}
 
-      <p>Just up the hill from the pump house, and still in Byrd Park, you can find the famous
-         Richmond Carillon. Although I'm not aware of any well-known creepy stories surrounding
-         this beautiful structure, below is a wonderfully-told true story called "White Lady" from Lynwood Cox, 
-         a local Richmond native who experienced something unusual there.</p>
+.HC {
+    font-family: 'Creepster', cursive;
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
-      <audio controls class="audio">
-        <source src="White Lady.mp3" type="audio/mpeg">
-        Your browser does not support the audio tag.</audio>
+p {
+    color: #827c7c;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
 
-      <p>Thanks for coming along on this spooky tour of Richmond.  I hope you will go out explore these locations on your own,
-         or better yet, go with a friend for backup in case you actually encounter something "otherworldly."</p>
+}
 
-    <nav>
-      <ul class="home">
-        <li class="nav-item"><a href="index.html">Home</a></li>
-      </ul>
-    </nav>
+.wwpoole {
+    float: left;
+    filter: grayscale(100%);
+    border: solid white 2px;
+    max-width: 40%;
+    height: auto;
+    margin-right: 2%;
+}
 
-       
+.tunnel {
+    filter: grayscale(100%);
+    float: right;
+    max-width: 40%;
+    height: auto;
+    border: solid white 2px;
+    margin: 1rem 0 1rem 1rem;
 
-  </body>
-</html>
+}
+
+.dog {
+    filter: grayscale(100%);
+    float: left;
+    max-width: 40%;
+    height: auto;
+    border: solid white 2px;
+    margin-right: 2%;
+}
+
+.nextbyrd {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+    font-family: 'Creepster', cursive;
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 3px;
+    float: none;
+
+}
+
+a {
+    color: rgb(143, 163, 243);
+    cursor:pointer;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: orange;
+}
+
+
+.byrd {
+    color: white;
+    font-family: 'Creepster', cursive;
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.interior {
+    filter: grayscale(100%);
+    float: left;
+    max-width: 40%;
+    height: auto;
+    border: solid white 2px;
+    margin-right: 1em;
+
+}   
+
+.pump {
+    color: white;
+    font-family: 'Creepster', cursive;
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.pumphouse {
+    filter: grayscale(100%);
+    float: right;
+    max-width: 40%;
+    height: auto;
+    border: solid white 2px;
+    margin: 1em 0 1em 1em;
+    
+}
+
+.nav-cont {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+    font-family: 'Creepster', cursive;
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 3px;
+
+}
+
+.nav-item {
+    padding: 1em;
+    color: #fff;
+}
+
+.nextpump {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Creepster', cursive;
+    font-size: 2em;
+    margin-bottom: 3px;
+    padding-inline-start: 0%;
+    
+}
+
+.nextpump:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.pumpside {
+  filter: grayscale(100%);
+  float: left;
+  max-width: 40%;
+  height: auto;
+  border: solid white 2px;  
+  margin: 1em 1em 1em 0;
+}
+
+.home {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Creepster', cursive;
+    font-size: 2.5em;
+    margin-bottom: 1rem;  
+}
+
+.home:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.pump1 {
+    margin-left: 42%;
+}
+
+.pump2 {
+    margin-left: 42%;
+}
+
+.audio {
+    margin-left: 40%;
+    margin-right: 40%;
+}
