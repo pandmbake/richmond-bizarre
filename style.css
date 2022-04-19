@@ -131,7 +131,7 @@ a:hover {
 .interior {
     filter: grayscale(100%);
     float: left;
-    max-width: 40%;
+    max-width: 30%;
     height: auto;
     border: solid white 2px;
     margin-right: 1em;
