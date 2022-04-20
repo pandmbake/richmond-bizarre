@@ -31,7 +31,7 @@ img.landing-page-image {
 .richmond-bizarre {
     color: #fffefe;
     font-family: 'Creepster', cursive;
-    font-size: 8em;
+    font-size: 7em;
     text-align: center;
     min-width: 50%;
     
@@ -130,11 +130,12 @@ a:hover {
 
 .interior {
     filter: grayscale(100%);
-    float: left;
-    max-width: 30%;
+    max-width: 50%;
     height: auto;
     border: solid white 2px;
-    margin-right: 1em;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3em;
 
 }   
 
@@ -184,7 +185,7 @@ a:hover {
     font-size: 2em;
     margin-bottom: 3px;
     padding-inline-start: 0%;
-    margin-top: 5em;
+    margin-top: 2em;
     
 }
 
