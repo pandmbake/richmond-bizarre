@@ -31,7 +31,7 @@ img.landing-page-image {
 .richmond-bizarre {
     color: #fffefe;
     font-family: 'Creepster', cursive;
-    font-size: 7em;
+    font-size: 6em;
     text-align: center;
     min-width: 50%;
     
@@ -102,8 +102,7 @@ p {
     font-family: 'Creepster', cursive;
     color: #fff;
     font-size: 2em;
-    margin-bottom: 3px;
-    margin-top: 3em;
+    margin: 2em 0 0 0;
 
 }
 
@@ -183,9 +182,9 @@ a:hover {
     flex-wrap: wrap;
     font-family: 'Creepster', cursive;
     font-size: 2em;
-    margin-bottom: 3px;
+    margin: 2em 0 0 0;
     padding-inline-start: 0%;
-    margin-top: 2em;
+    
     
 }
 
